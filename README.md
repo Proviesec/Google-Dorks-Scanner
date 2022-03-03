@@ -16,5 +16,6 @@ If you have any google dork, just create a PullRequest.
 
 # Ideas
 - [ ] simple google dorks scanner
+- [ ] proxy Server
 - [ ] Load Google dorks from https://github.com/Proviesec/google-dorks
 - [ ] Tutorial
