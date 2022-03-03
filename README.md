@@ -1,5 +1,8 @@
 # Google-Dorks-Scanner
 
+[![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwisiswant0/go-dork/issues)
+
 <a href="https://proviesec.org/">
     <img src="https://avatars.githubusercontent.com/u/92156402?s=400&u=7fe0dbb9085a37818ee8c2b061432a9a69cbff42&v=4" alt="Proviesec logo" title="Proviesec" align="right" height="60" />
 </a>
@@ -14,4 +17,4 @@ If you have any google dork, just create a PullRequest.
 # Ideas
 - [ ] simple google dorks scanner
 - [ ] Load Google dorks from https://github.com/Proviesec/google-dorks
-- [ ] 
+- [ ] Tutorial
