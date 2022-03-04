@@ -14,7 +14,7 @@ import (
 )
 
 func main () {
-	stat := time-now()
+	stat := time.now()
 	var counter = 0
 	var concurrency = 10
 	for i:=1; i<=concurrency; i++ {
