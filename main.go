@@ -23,6 +23,9 @@ func main () {
 			counter++
 		}()
 	}
+	time.Sleep(2 * time.Second)
+	elapsed := time.Since(start)
+	log.Println(elapsed)
 }
 
 var googleUrls = map[string]string{
