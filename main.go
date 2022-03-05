@@ -26,8 +26,19 @@ import (
 	"net/http"
 	"log"
 )
+func usage() {
+	fmt.Fprint(os.Stderr, `Usage: Google Dork Scanner [url] [flag]
+A google dorks scanner. The scanner sent the dorks to google to find security vulnerabilities. 
+Flags:
+    -v, --verbose  Print verbose logs to stderr.
+`)
+}
 
 func main () {
+	flag.StringVar(&url, "url", "", "")
+	flag.StringVar(&url, "url", "", "")
+	flag.BoolVar(&v, "v", false, "")
+	
 	start := time.Now()
 	var counter = 0
 	var concurrency = 10
