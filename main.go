@@ -35,7 +35,8 @@ Flags:
 }
 
 func main () {
-	flag.StringVar(&url, "url", "", "")
+	var url string
+	var v bool
 	flag.StringVar(&url, "url", "", "")
 	flag.BoolVar(&v, "v", false, "")
 	
