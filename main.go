@@ -26,6 +26,17 @@ import (
 	"net/http"
 	"log"
 )
+
+type Result struct {
+	Rank int `json:"rank"`
+	// URL of result.
+	URL string `json:"url"`
+	// Title of result.
+	Title string `json:"title"`
+	// Description of the result.
+	Description string `json:"description"`
+}
+
 func usage() {
 	fmt.Fprint(os.Stderr, `Usage: Google Dork Scanner [url] [flag]
 A google dorks scanner. The scanner sent the dorks to google to find security vulnerabilities. 
