@@ -16,6 +16,8 @@ If you have any google dork, just create a PullRequest.
 
 # Ideas
 - [ ] simple google dorks scanner
+   - [ ] google search
+   - [ ] response output
 - [ ] multi thread 
 - [ ] change language
 - [ ] proxy Server
