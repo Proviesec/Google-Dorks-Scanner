@@ -19,6 +19,7 @@ If you have any google dork, just create a PullRequest.
    - [ ] google search
    - [ ] response output
 - [ ] multi thread 
+- [ ] API way 
 - [ ] change language
 - [ ] proxy Server
 - [ ] Load Google dorks from https://github.com/Proviesec/google-dorks
