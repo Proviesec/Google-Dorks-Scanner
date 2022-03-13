@@ -13,6 +13,7 @@ type Result struct {
 	Title string `json:"title"`
 	Description string `json:"description"`
 }
+
 type SearchOptions struct {
 	CountryCode string
 	LanguageCode string
